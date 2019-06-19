@@ -1,20 +1,20 @@
-## Leap Year Checker
+## Ping Pong
 
-##### A program that checks whether or not an inputted number is a leap year.
+##### A web application built to practice looping and arrays in JavaScript.
 
 ###### By **Winter Runion**
 
 ### Description
 
-A website created with JavaScript and HTML where a user can submit a number and determine if it's a leap year.
+A web application that takes a number from a user and returns a range of numbers from 1 to the chosen number, with a few surprise  exceptions! (See specs for details.)
 
 ### Specs
 | Behavior when input is: | Example Input | Example Output |
 | :-------------     | :------------- | :------------- |
-| **A year that is NOT a leap year** | 1993 | false |
-| **A year that is divisible by 4** | 2004 | true |
-| **A year that's divisible by 100**| 1900 | true |
-| **A year that's divisible by 400**| 2000 | true |
+| **It can count up to the provided number** | 2 | [1,2] |
+| **It can detect when a number is divisible by 3, and return "ping" in place of that number in the array** | 6 | [1, 2, "ping", 4, "pong", "ping"] |
+| **It can detect when a number is divisible by 5, and return "pong"  in place of that number in the array**| 10 | [1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong"] |
+| **It can detect when a number is divisible by 15, and return "pingpong" in place of that number in the array**| 15 | [1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong", 11, "ping," 13, 14, "pingpong"] |
 
 ### Setup/Installation Requirements
 
@@ -27,14 +27,15 @@ A website created with JavaScript and HTML where a user can submit a number and 
 
 ### Technologies Used
 * HTML
-* JavaScript | jQuery
+* CSS & Bootstrap
+* JavaScript & jQuery
 
 ## Support and contact details
 
-_Email no one with any questions, comments, or concerns._
+_Email example@gmail.com with any questions, comments, or concerns._
 
 ### License
 
 *{This software is licensed under the MIT license}*
 
-Copyright (c) 2010 **_{Winter Runion}_**
+Copyright (c) 2019 **_{Winter Runion}_**
