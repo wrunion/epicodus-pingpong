@@ -9,7 +9,7 @@
 A web application that takes a number from a user and returns a range of numbers from 1 to the chosen number, with a few surprise  exceptions! (See specs for details.)
 
 ### Specs
-| Behavior when input is: | Example Input | Example Output |
+| Behavior | Example Input | Example Output |
 | :-------------     | :------------- | :------------- |
 | **It can count up to the provided number** | 2 | [1,2] |
 | **It can detect when a number is divisible by 3, and return "ping" in place of that number in the array** | 6 | [1, 2, "ping", 4, "pong", "ping"] |
