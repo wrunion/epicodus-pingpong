@@ -1,6 +1,3 @@
-#To Resolve:
-Should the user be able to enter the number 0? If not, how do I stop it?
-
 ## Ping Pong
 
 ##### A web application built to practice looping and arrays in JavaScript.
