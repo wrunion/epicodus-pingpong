@@ -10,8 +10,13 @@ $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
     var number = parseInt($("#number").val());
     alert(number);
+    var numberArrays = [];
+    var i;
+    for (i = 0; i <= number; i++) {
+      $("#result").append("<li>"+ i + "</li>");
+    }
     // var result = leapYear(inputYear);
-    // $("#result").text(result);
+    // $("#result").text(array1);
     event.preventDefault();
   });
 });
