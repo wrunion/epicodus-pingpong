@@ -12,9 +12,10 @@ A web application that takes a number from a user and returns a range of numbers
 | Behavior | Example Input | Example Output |
 | :-------------     | :------------- | :------------- |
 | **It can count up to the provided number** | 2 | [1,2] |
-| **It can detect when a number is divisible by 3, and return "ping" in place of that number in the array** | 6 | [1, 2, "ping", 4, "pong", "ping"] |
-| **It can detect when a number is divisible by 5, and return "pong"  in place of that number in the array**| 10 | [1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong"] |
-| **It can detect when a number is divisible by 15, and return "pingpong" in place of that number in the array**| 15 | [1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong", 11, "ping," 13, 14, "pingpong"] |
+| **It can return an array of numbers from 1 up to the inputted number** | 4 | [1,2, "ping", 4] |
+| **It can detect when a number is divisible by 3, and return "ping"** | 6 | [1, 2, "ping", 4, "pong", "ping"] |
+| **It can detect when a number is divisible by 5, and return "pong"**| 10 | [1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong"] |
+| **It can detect when a number is divisible by 15, and return "pingpong"**| 15 | [1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong", 11, "ping," 13, 14, "pingpong"] |
 
 ### Setup/Installation Requirements
 
@@ -27,8 +28,8 @@ A web application that takes a number from a user and returns a range of numbers
 
 ### Technologies Used
 * HTML
-* CSS & Bootstrap
-* JavaScript & jQuery
+* CSS | Bootstrap
+* JavaScript | jQuery
 
 ## Support and contact details
 
