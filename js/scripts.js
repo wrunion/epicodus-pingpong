@@ -24,7 +24,7 @@ $(document).ready(function() {
         $("#result ul").append("<li>" + element + "</li>");
       });
     event.preventDefault();
-    // $("form").trigger('reset');
+    $("form").trigger('reset');
   });
   $("button#reset").click(function(event) {
    location.reload();
